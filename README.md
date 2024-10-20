@@ -11,6 +11,9 @@ git clone https://github.com/Nikolaevviktord/sqe/
 ```
 sudo mv ~/sqe/sqe.py /usr/bin/sqe.py
 ```
+```
+rm -r ~/sqe
+```
 Далее вставьте в файл `~/.bashrc` строку:
 ```
 alias sqe='python3 /usr/bin/sqe.py'
